@@ -13,7 +13,7 @@ print(type(soma))
 # MANEIRA NAO IDEAL: Como concatenar variaveis diferentes no mesmo print (transformando a variavel para string usando str)
 print("soma: " + str(soma) + "\nsubtração: " + str(subtracao))
 
-# MANEIRA IDEAL: Como concatenar variaveis diferentes no mesmo print (transformando a variavel usando format. Pode ser usado com varias variáveis ao mesmo tempo)
+# MANEIRA IDEAL: Como concatenar variaveis diferentes no mesmo print (transformando a variavel usando .format(variável) Pode ser usado com varias variáveis ao mesmo tempo)
 print("Soma: {}" .format(soma))
 
 # É possível usar o format de outra forma, dando "Apelidos" as variaveis
